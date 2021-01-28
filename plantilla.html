@@ -9,162 +9,189 @@
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
     </script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+    <link rel="stylesheet" type="text/css" href="impresion.css" media="print" />
     <link rel="stylesheet" href="config.css">
 
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-   
-    
+
+
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=default">
     </script>
-    <script src="dist/vue.js"></script>  
+    <script src="dist/vue.js"></script>
 
 </head>
 
 
-<body >
-
-<div id ="App">
-
-
-
-
-    <!-- Hoja (01) -->
-    <div class='page'>
-        <div class='page_margin'>
-            <div class='page_membrete'>
-                <img class='img-header' src="logo-chile.png" alt="">
-                <img class='img-header' src="logo-uta.png" alt="">
-                <img class='img-header' src="logo-dido.png" alt="">
-                <img class='img-header' src="logo-pace.png" alt="">
-            </div>
-
-            <h1 class='text-align-center'>Datos no agrupados</h1>
-            <br>
-            <section class="hero is-success">
-                <div class="hero-body">
-                    <div class="container">
-                        <h1 class="text-align-center">
-                            Parámetros estadísticos para datos no agrupados
-                        </h1>
-                        <h2 class="text-justificar">
-                            texto aleatorio
-                        </h2>
-                    </div>
-                </div>
-            </section>
-            <br>
-
-            <div class='text-align-center text-font-size-xl'>
-                <p>CONTENIDO</p>
-               
-            </div>
-        </div>
-    </div>
-    <!-- Fin de page (01) -->
-
-    <!-- inicio de page (02) -->
-    <div class='page'>
-        <div class='page_margin'>
-            <div class='page_membrete'>
-                <img class='img-header' src="logo-chile.png" alt="">
-                <img class='img-header' src="logo-uta.png" alt="">
-                <img class='img-header' src="logo-dido.png" alt="">
-                <img class='img-header' src="logo-pace.png" alt="">
-            </div>
-
-            <br>
-            <div class='page-seccion'>
-                <div class='page-seccion-teoria'>Promedio para datos no agrupados</div> 
-
-                <br>
-                <div class='parrafo'>
-                    <p>Si llamamos \( x_{1}, x_{2}, …, x_{n} \) a los valores que toma una distribución estadística,
-                        la media, o promedio, se designa por \( \bar{x}\)
-                    </p>
-                </div>
-                <p>
-                    \begin{align*}
-                    \bar{x} &=\frac{x_{1} + x_{2}+ x_{3}+...+ x_{n-1} + x_{n}}{n} \\
-                    \end{align*}
-                </p>
-                <p class='parrafo'>Una forma más compacta de la fórmula es:  tempora voluptatum dolorum i.</p>
-                <p>
-                    \begin{align*}
-                    \bar{x} &=\sum_{i=1}^{n}\dfrac{x_{i}}{n} \\
-                    \end{align*}
-                    \\  \displaystyle
-                </p>
-            </div>
-
-            <br>
-            <div class='page-seccion-ejemplo'>
-                <div class='page-seccion-ejemplo-titulo'>Ejemplo 01</div> 
-
-                <br>
-                <div class='parrafo'>
-                    <p>Si llamamos \( x_{1}, x_{2}, …, x_{n} \) a los valores que toma una distribución estadística,
-                        la media, o promedio, se designa por \( \bar{x}\) y se
-                    </p>
-                </div>
-                <p>
-                    \begin{align*}
-                    \bar{x} &=\frac{x_{1} + x_{2}+ x_{3}+...+ x_{n-1} + x_{n}}{n} \\
-                    \end{align*}
-                </p>
-                <promedio></promedio>
-                <p class='parrafo'>Una forma más comp sit culpa obcaecati ad.</p>
-                <p>
-                    \begin{align*}
-                    \bar{x} &=\sum_{i=1}^{n}\dfrac{x_{i}}{n} \\
-                    \end{align*}
-                    \\  \displaystyle
-                </p>
-            </div>            
-        </div><!-- Fin de page_margin -->
-        <div class='page-numerar-right'>1</div>
-    </div>
-
-    <!-- Fin de page (02) -->
-
-</div>    
-<script>
-
-
-    var promedio=document.getElementsByTagName('td');
-    for (j=0;j<promedio.length;j=j+1){
-    promedio[j].addEventListener("click",menu_promedio)
-    }   
-
-    function menu_promedio(){
-    var o=window.event.target;
-    if (o.nodeName=="TD"){
-        
-        if (o.getAttribute("class")=="myclase"){
-            o.setAttribute("style", "background-color: white;");
-            console.log('blanco');
-            console.log(o.getAttribute("class"));
-            o.className="";
-        } else{
-            //console.log(promedio.className);
-            //console.log(window.event);
-            //console.log(window.event.target);
-           // var o=window.event.target;
-            o.setAttribute("style", "background-color: red;");
-             ///Name='formula_promedio';
-           // console.log(o.getAttribute("backgroundColor"));
-            console.log("rojo");
-            o.className="myclase";
-            console.log(o.getAttribute("class"));
-            console.log()
-
-        
-        }
-    }
-    }
+<body>
     
+    <div id="App">
 
-</script>
-<script src="App.js"></script>
+        <!-- Hoja (01) -->
+        <div class='hoja'>
+            <div class='page_margin'>
+                <div class='page_membrete'>
+                    <img class='img-header' src="logo-chile.png" alt="">
+                    <img class='img-header' src="logo-uta.png" alt="">
+                    <img class='img-header' src="logo-dido.png" alt="">
+                    <img class='img-header' src="logo-pace.png" alt="">
+                </div>
+
+                <h1 class='text-align-center'>Datos no agrupados</h1>
+                <br>
+                <section class="hero is-success">
+                    <div class="hero-body">
+                        <div class="container">
+                            <h1 class="text-align-center">
+                                Parámetros estadísticos para datos no agrupados
+                            </h1>
+                            <h2 class="text-justificar">
+                                texto aleatorio
+                            </h2>
+                        </div>
+                    </div>
+                </section>
+                <br>
+
+                <div class='text-align-center text-font-size-xl'>
+                    <p>CONTENIDO</p>
+
+                </div>
+            </div>
+            
+        </div>
+        <div class='saltar-pagina'></div> 
+        <!-- Fin de page (01) -->
+
+        <!-- inicio de page (02) -->
+        <div class='hoja'>
+            <div class='page_margin'>
+                
+              
+                <div class='hoja-seccion'>
+                    <div class='page-seccion-teoria'>Promedio para datos no agrupados</div>
+
+                    <br>
+                    <div class='parrafo'>
+                        <p>Si llamamos \( x_{1}, x_{2}, …, x_{n} \) a los valores que toma una distribución estadística,
+                            la media, o promedio, se designa por \( \bar{x}\)
+                        </p>
+                    </div>
+                    <p>
+                        \begin{align*}
+                        \bar{x} &=\frac{x_{1} + x_{2}+ x_{3}+...+ x_{n-1} + x_{n}}{n} \\
+                        \end{align*}
+                    </p>
+                    <p class='parrafo'>Una forma más compacta de la fórmula es: tempora voluptatum dolorum i.</p>
+                    <p>
+                        \begin{align*}
+                        \bar{x} &=\sum_{i=1}^{n}\dfrac{x_{i}}{n} \\
+                        \end{align*}
+                        
+                    </p>
+                   
+                </div>
+
+                <br>
+                <div class='page-seccion-ejemplo'>
+                    <div class='page-seccion-ejemplo-titulo'>Ejemplo 01</div>
+
+                    <br>
+                    <div class='parrafo'>
+                        <p>Si llamamos \( x_{1}, x_{2}, …, x_{n} \) a los valores que toma una distribución estadística,
+                            la media, o promedio, se designa por \( \bar{x}\) y se
+                        </p>
+                    </div>
+                    <p>
+                        \begin{align*}
+                        \bar{x} &=\frac{x_{1} + x_{2}+ x_{3}+...+ x_{n-1} + x_{n}}{n} \\
+                        \end{align*}
+                    </p>
+                   
+                    <p>
+                        \begin{align*}
+                        \bar{x} &=\sum_{i=1}^{n}\dfrac{x_{i}}{n} \\
+                        \end{align*}
+
+                    </p>
+                </div>
+            </div><!-- Fin de page_margin -->
+            <div class='numerar-right'>22 </div>
+        </div>
+        <!-- Fin de page (02) -->
+
+      
+
+
+    <!-- inicio de page (04) -->
+    <div class='hoja'>
+        <div class='page_margin'>
+            <div class='page_membrete'>
+                <img class='img-header' src="logo-chile.png" alt="">
+                <img class='img-header' src="logo-uta.png" alt="">
+                <img class='img-header' src="logo-dido.png" alt="">
+                <img class='img-header' src="logo-pace.png" alt="">
+            </div>
+
+            <br>
+            <div class='hoja-seccion'>
+                <div class='page-seccion-teoria'>Promedio para datos no agrupados  </div>
+
+                <br>
+
+                <div class='parrafo'>
+                    <p>Si  \( x_{1}, x_{2}, …, x_{n} \) son los datos de una muestra o población,
+                        la media o promedio, se define como:
+                    </p>
+
+                    <div  class='alinear-horizontal'>
+                        
+                        <p>
+                            \begin{equation*}
+                               
+                                \begin{aligned}
+                                    \bar{x} &=\frac{x_{1} + x_{2}+ x_{3}+...+ x_{n-1} + x_{n}}{n} \\
+                                \end{aligned}
+                                
+                                <!-- \quad \text{mi texto}-->
+                            \end{equation*}
+                        </p>
+                    </div>
+<!--
+                    <p>
+                        \begin{align*}
+                        \bar{x} &=\frac{x_{1}f_{1} + x_{2}f_{2} + x_{3}f_{3}+...+ x_{n-1}f_{n-1} + x_{n}f_{n}}{n} \\
+                        \end{align*}
+                    </p>
+-->                    
+                    <div class='alinear-horizontal'>
+                        <p>\( \bar{x}\): promedio</p>
+                        <p>\( x_{i}\): dato k-esimo</p>
+                        <p>\(n\): cantidad de datos</p>
+                    </div>
+
+                </div>
+
+                <div class='parrafo'>
+                   
+                    <p>Empleando la notación sumatoria se puede escribir de foma más compacta de la siguiente forma:</p>
+                    <p>
+                        \begin{align*}
+                        \bar{x} & = \sum_{i=1}^{n}\dfrac{x_{i}}{n} \\
+                        \end{align*}
+
+                    </p>
+                   
+                </div>
+
+
+
+            </div>
+        </div><!-- Fin de page_margin -->
+        <div class='numerar-right'>4</div>
+    </div>
+    <!-- Fin de page (04) -->
+
+    <!--<script src="App.js"></script>-->
 </body>
 
 </html>

@@ -1,6 +1,6 @@
     //Se definen los margenes, fuente y tamaño de la página
     $DOCUMENT_FONT_NAME:'Roboto', sans-serif;//Calibri;
-    $DOCUMENT_FONT_SIZE:22px;//16px;
+    $DOCUMENT_FONT_SIZE:16px;//16px;
 
     //Se define el tamaño de las páginas
     $LETTER_WIDTH:  21.6cm;//21.6cm;
@@ -16,11 +16,11 @@
     $MARGIN_LEFT: 1cm;
     $MARGIN_RIGHT: 1cm;
     $MARGIN_BOTTOM: 0cm;
-    $MARGIN_TOP: 0cm;
+    $MARGIN_TOP: 1.5cm;
 
     body{
-        margin-left:1cm;
-        margin-right:1cm ;
+       // margin-left:1cm;
+        //margin-right:1cm ;
         //margin:0;
         font-family: $DOCUMENT_FONT_NAME;
         font-size: $DOCUMENT_FONT_SIZE;
@@ -45,11 +45,12 @@
         font-size: 12px;;
     }
 
-    .page{
+    .hoja{
         width:$HOJA_WIDTH;
         height:$HOJA_HEIGHT;
         
         // Comentar este segmento para eliminar los bordes
+       
         
         box-shadow: 0 1px black inset,
                     1px 0 black inset,
@@ -76,28 +77,8 @@
       width: 100%;          
     } 
 
-    .items-horizontal{
-        display:flex;
-        flex-direction:row;
-        align-items:center;
-        /*ajusta en el eje secundario*/
-  
-        justify-content:space-around;/*:space-between;*/
-        /*alinea en el eje principal*/
-        
-       
-       // background-color: darkkhaki;
-        width: 100%;          
-      } 
-    //Tamaños de fuentes s:small, normal, m:medio, l:largo, xl:extra largo
 
-    .page-body{
-        display:flex;
-        flex-direction: column;
-        justify-content: space-between;
-     
-    }
-    .page-seccion{
+    .hoja-seccion{
         width:100%;
         background-color: rgb(242, 242, 242);
       
@@ -171,15 +152,8 @@
         width:2.5cm;
         height:1.6cm;
     }
-    .page-font-size{
-        font-size: $DOCUMENT_FONT_SIZE;
-    }
-    .page-title{
-        width:100%;
-        font-size:24px;
-        font-weight:bolder;
-       
-    }
+  
+
     .page_margin{
      
         margin-left: $MARGIN_LEFT;
@@ -189,26 +163,12 @@
        
    
     }
-    .page-numerar-right{
-        margin-right: 2cm;
+    .numerar-right{
+        margin-right: 1cm;
         text-align: right;
         margin-bottom: 0.5cm;
     }
     
-   
-    .transparente{
-        //opacity:.4 ;
-        display:block; 
-    }
-    .size-button{
-        height:3.5em;
-        width:6em;
-    }
-
-    .size-button-medium{
-        height:3em;
-        width:8em;
-    }
 
     .alinear-horizontal{
         display:flex;
@@ -243,42 +203,7 @@
         align-items: center;
     }
 
-    .tabla-head{
-        background-color:rgb(84,169,146)  !important;
-    }
-    /*
-    td:active{
-        background-color:seagreen;
-    }*/
-    /*
-    tbody tr:active{
-        background-color: rgb(143, 181, 156);
-    }*/
-
-    tbody tr:focus{
-        background-color: rgb(143, 181, 156);
-    }
-    p:focus{
-        background-color: red;
-    }
    
-
-    
-    .claseboton{
-        background-color: red($color: #000000) !important ;
-      
-    }
-
-    .text-form{
-        color:white;
-        user-select: none;
-        user-select: none;
-        -moz-user-select: none;
-        -khtml-user-select: none;
-        -webkit-user-select: none;
-        -o-user-select: none;        
-    }
-
 
     
 
