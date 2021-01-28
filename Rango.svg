@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="Rango.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   id="svg2746"
+   version="1.1"
+   viewBox="0 0 60 20"
+   height="2cm"
+   width="6cm">
+  <defs
+     id="defs2740">
+    <clipPath
+       id="clipPath1148"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         id="path1146"
+         clip-rule="evenodd"
+         d="m 30.72,701.85 v -38.52 h 154.32 v 38.52 z" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     inkscape:window-maximized="0"
+     inkscape:window-y="519"
+     inkscape:window-x="4210"
+     inkscape:window-height="1248"
+     inkscape:window-width="2227"
+     inkscape:snap-grids="false"
+     inkscape:snap-others="false"
+     inkscape:snap-nodes="false"
+     inkscape:object-nodes="false"
+     inkscape:snap-smooth-nodes="true"
+     units="cm"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="cm"
+     inkscape:cy="130.19097"
+     inkscape:cx="36.513939"
+     inkscape:zoom="3.52"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <metadata
+     id="metadata2743">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Capa 1">
+    <g
+       style="fill:#00ff00;stroke:#338000;stroke-opacity:1"
+       transform="matrix(0.35277777,0,0,-0.35277777,-8.9585287,250.32302)"
+       id="g1142">
+      <g
+         style="fill:#00ff00;stroke:#338000;stroke-opacity:1"
+         clip-path="url(#clipPath1148)"
+         id="g1144">
+        <g
+           style="fill:#00ff00;stroke:#338000;stroke-opacity:1"
+           transform="matrix(0.12,0,0,-0.12,0,841.89)"
+           id="g1150">
+          <path
+             id="path1152"
+             style="fill:#00ff00;stroke:#338000;stroke-width:12;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             d="M 255,1315 H 1541" />
+        </g>
+      </g>
+    </g>
+    <g
+       transform="matrix(0.04233333,0,0,0.04233333,-8.9585287,-46.677056)"
+       id="g1154">
+      <path
+         id="path1156"
+         style="fill:none;stroke:#454547;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 481,1298 v 34" />
+    </g>
+    <text
+       y="4.942462"
+       x="21.096987"
+       id="text1160"
+       style="font-variant:normal;font-weight:normal;font-size:2.69576px;font-family:FEFFADB72E2;-inkscape-font-specification:FEFFADB72E2;writing-mode:lr-tb;fill:#454547;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352756"
+       transform="scale(1.0000654,0.9999346)"><tspan
+         style="stroke-width:0.352756"
+         id="tspan1158"
+         sodipodi:role="line"
+         y="4.942462"
+         x="21.096987 22.835747 24.410065 26.261408 28.335642 30.15589 31.89465 32.78043 34.854668">RECORRIDO</tspan></text>
+    <text
+       y="12.137424"
+       x="7.0844727"
+       id="text1164"
+       style="font-variant:normal;font-weight:normal;font-size:2.69576px;font-family:FEFFADB72E2;-inkscape-font-specification:FEFFADB72E2;writing-mode:lr-tb;fill:#454547;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352756"
+       transform="scale(1.0000654,0.9999346)"><tspan
+         style="stroke-width:0.352756"
+         id="tspan1162"
+         sodipodi:role="line"
+         y="12.137424"
+         x="7.0844727 8.7353935 10.470978 11.86791 14.011032">VALOR</tspan></text>
+    <text
+       y="15.356151"
+       x="5.9010377"
+       id="text1168"
+       style="font-variant:normal;font-weight:normal;font-size:2.69576px;font-family:FEFFADB72E2;-inkscape-font-specification:FEFFADB72E2;writing-mode:lr-tb;fill:#454547;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352756"
+       transform="scale(1.0000654,0.9999346)"><tspan
+         style="stroke-width:0.352756"
+         id="tspan1166"
+         sodipodi:role="line"
+         y="15.356151"
+         x="5.9010377 8.3595629 9.329875 11.440648 12.351812 14.832945">MÍNIMO</tspan></text>
+    <g
+       transform="matrix(0.04233333,0,0,0.04233333,-8.9585287,-46.677056)"
+       id="g1170">
+      <path
+         id="path1172"
+         style="fill:none;stroke:#454547;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 1316,1298 v 34" />
+    </g>
+    <text
+       y="12.137424"
+       x="42.431164"
+       id="text1176"
+       style="font-variant:normal;font-weight:normal;font-size:2.69576px;font-family:FEFFADB72E2;-inkscape-font-specification:FEFFADB72E2;writing-mode:lr-tb;fill:#454547;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352756"
+       transform="scale(1.0000654,0.9999346)"><tspan
+         style="stroke-width:0.352756"
+         id="tspan1174"
+         sodipodi:role="line"
+         y="12.137424"
+         x="42.431164 44.082085 45.761539 47.214603 49.357723">VALOR</tspan></text>
+    <text
+       y="15.356151"
+       x="41.034763"
+       id="text1180"
+       style="font-variant:normal;font-weight:normal;font-size:2.69576px;font-family:FEFFADB72E2;-inkscape-font-specification:FEFFADB72E2;writing-mode:lr-tb;fill:#454547;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352756"
+       transform="scale(1.0000654,0.9999346)"><tspan
+         style="stroke-width:0.352756"
+         id="tspan1178"
+         sodipodi:role="line"
+         y="15.356151"
+         x="41.034763 43.53231 45.211765 46.945129 47.856297 50.347652">MÁXIMO</tspan></text>
+    <g
+       style="stroke:#ff0000"
+       transform="matrix(0.04233333,0,0,0.04233333,-8.9585287,-46.677056)"
+       id="g1182">
+      <path
+         id="path1184"
+         style="fill:none;stroke:#ff0000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 481,1287 c 0,-12 10,-23 22,-23 h 373 c 12,0 22,-10 22,-22 0,12 10,22 23,22 h 372 c 13,0 23,11 23,23" />
+    </g>
+  </g>
+</svg>
